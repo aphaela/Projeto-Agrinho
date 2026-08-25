@@ -1,4 +1,5 @@
-# VERDE VIVO — Agrinho 2026
+# 
+Agrinho 2026
 
 Versão avançada do projeto com estética editorial inspirada em referências de Notion/Pinterest e foco em experiência interativa.
 
