@@ -1,1 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Agro Forte, Futuro Sustentável — uma experiência interativa sobre produção, tecnologia e meio ambiente.">
+<title>VERDE VIVO — Agrinho 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="cursor-glow"></div>
+<div class="noise"></div>
 
+<header class="nav">
+  <a href="#top" class="logo"><span>✦</span> VERDE VIVO</a>
+  <nav>
+    <a href="#jornada">Jornada</a>
+    <a href="#territorio">Território</a>
+    <a href="#solucoes">Soluções</a>
+    <a href="#desafio">Desafio</a>
+  </nav>
+  <button id="mode" class="round" aria-label="Mudar aparência">☼</button>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-left reveal">
+    <div class="tag"><span></span> AGRINHO 2026 · PROJETO INTERATIVO</div>
+    <h1>Agro forte.<br><i>Futuro sustentável.</i></h1>
+    <p class="lead">Uma experiência para entender que o campo do futuro não precisa escolher entre produzir e preservar. O verdadeiro avanço acontece quando os dois crescem juntos.</p>
+    <div class="hero-buttons">
+      <a href="#jornada" class="btn primary">Começar jornada <b>↗</b></a>
+      <button id="manifesto" class="btn ghost">Nosso manifesto <b>▶</b></button>
+    </div>
+    <div class="micro-stats">
+      <div><strong>01</strong><span>produção</span></div>
+      <div><strong>02</strong><span>preservação</span></div>
+      <div><strong>03</strong><span>inovação</span></div>
+    </div>
+  </div>
+
+  <div class="hero-scene reveal">
+    <div class="scene-sky"></div>
+    <div class="sun"></div>
+    <div class="mountain m1"></div><div class="mountain m2"></div>
+    <div class="field field-back"></div><div class="field field-front"></div>
+    <div class="field-lines"></div>
+    <div class="farm">
+      <div class="farm-roof"></div><div class="farm-house"></div>
+      <div class="farm-door"></div><div class="farm-window"></div>
+    </div>
+    <div class="windmill"><i></i><b></b><em></em><strong></strong></div>
+    <div class="tree t1">♣</div><div class="tree t2">♣</div>
+    <div class="floating-note note-a">água <b>+</b> vida</div>
+    <div class="floating-note note-b">tecnologia <b>+</b> precisão</div>
+    <div class="scene-label">PARANÁ · 2026</div>
+  </div>
+</section>
+
+<section class="marquee"><div>PRODUZIR <span>✦</span> PRESERVAR <span>✦</span> INOVAR <span>✦</span> REGENERAR <span>✦</span> PRODUZIR <span>✦</span> PRESERVAR <span>✦</span></div></section>
+
+<section id="jornada" class="journey section">
+  <div class="section-top reveal">
+    <div><small>01 — A JORNADA</small><h2>O futuro é feito<br><i>de escolhas.</i></h2></div>
+    <p>Imagine uma propriedade rural onde cada decisão considera a produtividade de hoje e a saúde do território amanhã. Clique nos pontos para explorar essa ideia.</p>
+  </div>
+
+  <div class="journey-map reveal">
+    <div class="map-bg">
+      <div class="contour c1"></div><div class="contour c2"></div><div class="contour c3"></div>
+      <div class="map-river"></div><div class="map-field f1"></div><div class="map-field f2"></div><div class="map-field f3"></div>
+      <div class="map-house"></div><div class="map-tree mt1">♣</div><div class="map-tree mt2">♣</div>
+      <button class="hotspot h1" data-point="solo">01<span>Solo vivo</span></button>
+      <button class="hotspot h2" data-point="agua">02<span>Água protegida</span></button>
+      <button class="hotspot h3" data-point="dados">03<span>Dados no campo</span></button>
+      <button class="hotspot h4" data-point="vida">04<span>Biodiversidade</span></button>
+      <div class="compass">N<br><span>+</span></div>
+    </div>
+    <div class="point-panel" id="pointPanel">
+      <small>EXPLORE O TERRITÓRIO</small>
+      <h3 id="pointTitle">Clique em um ponto</h3>
+      <p id="pointText">Cada ponto representa uma prática que ajuda a aproximar produtividade e sustentabilidade.</p>
+      <div class="point-fact"><b>✦</b><span id="pointFact">Escolha um dos quatro pontos no mapa.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="territorio" class="territory">
+  <div class="section reveal">
+    <div class="section-top">
+      <div><small>02 — TERRITÓRIO</small><h2>Um campo,<br><i>muitos sistemas.</i></h2></div>
+      <p>Produção sustentável depende de enxergar a propriedade como parte de uma paisagem maior: solo, água, pessoas, clima e biodiversidade estão conectados.</p>
+    </div>
+  </div>
+  <div class="system-grid reveal">
+    <article class="system-card large soil"><span>01 · SOLO</span><h3>Onde tudo<br>começa.</h3><p>Rotação, cobertura e matéria orgânica ajudam a manter a estrutura e a fertilidade do solo.</p><button data-system="solo">Explorar →</button></article>
+    <article class="system-card water"><span>02 · ÁGUA</span><h3>Cada gota<br>tem um caminho.</h3><p>Captação, proteção de nascentes e irrigação eficiente reduzem perdas.</p><button data-system="agua">Explorar →</button></article>
+    <article class="system-card tech"><span>03 · TECNOLOGIA</span><h3>Dados viram<br>decisões.</h3><p>Sensores, mapas e agricultura de precisão permitem agir no lugar certo.</p><button data-system="tech">Explorar →</button></article>
+    <article class="system-card bio"><span>04 · BIODIVERSIDADE</span><h3>Mais vida<br>é equilíbrio.</h3><p>Polinizadores, vegetação nativa e corredores ecológicos fortalecem o sistema.</p><button data-system="bio">Explorar →</button></article>
+  </div>
+</section>
+
+<section id="solucoes" class="solutions section">
+  <div class="section-top reveal">
+    <div><small>03 — SOLUÇÕES</small><h2>Pequenas ações.<br><i>Grande impacto.</i></h2></div>
+    <div class="solution-filter"><button class="active" data-filter="all">Todas</button><button data-filter="campo">Campo</button><button data-filter="casa">Casa</button><button data-filter="tecnologia">Tecnologia</button></div>
+  </div>
+  <div class="cards reveal">
+    <article data-cat="campo" class="action-card"><div class="number">01</div><div class="card-symbol">↺</div><h3>Rotacione culturas</h3><p>Alternar culturas pode diversificar o uso do solo e contribuir para seu manejo.</p><button>Ver ideia</button></article>
+    <article data-cat="campo" class="action-card highlight"><div class="number">02</div><div class="card-symbol">⌁</div><h3>Proteja a água</h3><p>Conservar nascentes e vegetação próxima aos cursos d’água ajuda toda a paisagem.</p><button>Ver ideia</button></article>
+    <article data-cat="tecnologia" class="action-card"><div class="number">03</div><div class="card-symbol">⌁</div><h3>Use dados</h3><p>Medir umidade e observar a lavoura tornam decisões mais precisas.</p><button>Ver ideia</button></article>
+    <article data-cat="casa" class="action-card"><div class="number">04</div><div class="card-symbol">◇</div><h3>Consuma melhor</h3><p>Planejar compras, evitar desperdício e reaproveitar materiais também é sustentabilidade.</p><button>Ver ideia</button></article>
+    <article data-cat="tecnologia" class="action-card"><div class="number">05</div><div class="card-symbol">✦</div><h3>Automatize com propósito</h3><p>Tecnologia é ferramenta: o ganho real aparece quando ela resolve um problema.</p><button>Ver ideia</button></article>
+    <article data-cat="campo" class="action-card"><div class="number">06</div><div class="card-symbol">♣</div><h3>Abra espaço para a vida</h3><p>Vegetação nativa e ambientes diversos ajudam a manter funções ecológicas.</p><button>Ver ideia</button></article>
+  </div>
+</section>
+
+<section class="balance-section">
+  <div class="balance-graphic reveal">
+    <div class="balance-orbit o1"></div><div class="balance-orbit o2"></div>
+    <div class="balance-core"><span>PRODUÇÃO</span><b>⚖</b><span>NATUREZA</span></div>
+    <div class="orbit-dot d1">✦</div><div class="orbit-dot d2">✦</div>
+  </div>
+  <div class="balance-copy reveal">
+    <small>04 — O PONTO DE EQUILÍBRIO</small>
+    <h2>Não é sobre escolher um lado.</h2>
+    <p>É sobre redesenhar o caminho. Um agro forte precisa de solo fértil, água disponível, biodiversidade, conhecimento e pessoas capazes de inovar.</p>
+    <div class="principles"><div><b>01</b><span><strong>Planejar</strong> antes de intervir.</span></div><div><b>02</b><span><strong>Medir</strong> para reduzir desperdícios.</span></div><div><b>03</b><span><strong>Regenerar</strong> para continuar produzindo.</span></div></div>
+  </div>
+</section>
+
+<section id="desafio" class="challenge section">
+  <div class="challenge-intro reveal"><small>05 — DESAFIO DO FUTURO</small><h2>Você seria capaz de administrar uma propriedade <i>sustentável?</i></h2><p>Suas decisões mudam os indicadores. Tente chegar ao final com produção e natureza em equilíbrio.</p></div>
+  <div class="game reveal">
+    <div class="game-head"><span>FAZENDA 2035</span><span id="round">DECISÃO 1 / 4</span></div>
+    <div class="meters"><div><span>🌾 Produção</span><b id="prodNum">70</b><i><em id="prodBar"></em></i></div><div><span>🌿 Natureza</span><b id="natureNum">70</b><i><em id="natureBar"></em></i></div><div><span>💧 Recursos</span><b id="resourceNum">70</b><i><em id="resourceBar"></em></i></div></div>
+    <h3 id="decision">Uma área está com baixa umidade. O que você faz?</h3>
+    <div id="choices" class="choices"></div>
+    <div id="gameEnd" class="game-end hidden"></div>
+  </div>
+</section>
+
+<section class="quiz-strip reveal">
+  <div><small>SEU COMPROMISSO</small><h2>Qual escolha você leva<br><i>para a vida real?</i></h2></div>
+  <div class="commitment">
+    <button data-commit="água">💧 Economizar água</button>
+    <button data-commit="solo">🌱 Valorizar o solo</button>
+    <button data-commit="desperdicio">♻ Reduzir desperdício</button>
+    <button data-commit="conhecimento">✦ Compartilhar conhecimento</button>
+    <p id="commitResult">Escolha uma opção. Sua escolha aparecerá aqui.</p>
+  </div>
+</section>
+
+<section class="final">
+  <div class="final-mark">✦</div>
+  <small>AGRINHO 2026 · VERDE VIVO</small>
+  <h2>O futuro começa<br><i>na próxima escolha.</i></h2>
+  <p>Produzir com responsabilidade é plantar possibilidades.</p>
+  <a class="btn primary" href="#top">Voltar ao início ↑</a>
+</section>
+</main>
+
+<footer><span>VERDE VIVO · AGRINHO 2026</span><span>Educação · Tecnologia · Sustentabilidade</span></footer>
+
+<div class="modal hidden" id="modal"><div class="modal-box"><button id="close">×</button><small id="modalTag">IDEIA</small><h2 id="modalTitle">Título</h2><p id="modalText">Texto</p><div class="tip"><b>✦ NA PRÁTICA</b><span id="modalTip"></span></div></div></div>
+<script src="script.js"></script>
+</body>
+</html>
